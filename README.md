@@ -22,6 +22,8 @@ Buduję wtyczki na zamówienie, integracje z zewnętrznymi źródłami danych i 
 
 Wtyczki komunikują się **wyłącznie zdarzeniami WordPressa** — żadna nie zna klas ani tabel pozostałych, więc każdą można wdrożyć osobno. ~23 000 linii PHP, 14 wydań, CI z PHPCS/WPCS na PHP 7.4 i 8.3, harness procesu ze 110 niezmiennikami.
 
+▶️ **[Klikalne demo](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/krzysiek2115op/mp-offer-automation-suite/main/tools/strona-pokazowa/blueprint.json)** — kompletny WordPress z trzema wtyczkami i pełnym przebiegiem procesu, uruchamia się w Twojej przeglądarce.
+
 `PHP` `WordPress` `WooCommerce` `MySQL` `dompdf` `GitHub Actions`
 
 ---
@@ -73,7 +75,7 @@ I automate repetitive business processes in WordPress and WooCommerce — the on
 - **Data integrations and scrapers** — Python on a VPS feeding a private database, read-only WordPress plugin on the front
 - **Websites and custom themes** — no plugin bloat, local SEO, accessibility, mobile-first
 
-Featured: [MP Offer Automation Suite](https://github.com/krzysiek2115op/mp-offer-automation-suite) (~23k lines of PHP, 14 releases, CI on PHP 7.4 + 8.3) · [Copart/IAAI Importer](https://github.com/krzysiek2115op/copart-iaai-importer) ([live demo](https://github.com/krzysiek2115op/iaai-importer-demo), runs in your browser)
+Featured: [MP Offer Automation Suite](https://github.com/krzysiek2115op/mp-offer-automation-suite) ([live demo](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/krzysiek2115op/mp-offer-automation-suite/main/tools/strona-pokazowa/blueprint.json), ~23k lines of PHP, 14 releases, CI on PHP 7.4 + 8.3) · [Copart/IAAI Importer](https://github.com/krzysiek2115op/copart-iaai-importer) ([live demo](https://github.com/krzysiek2115op/iaai-importer-demo), runs in your browser)
 
 </details>
 
