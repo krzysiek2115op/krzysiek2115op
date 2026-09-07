@@ -113,7 +113,7 @@ Scraper w Pythonie chodzi na VPS z timera systemd i zasila własną bazę. Wtycz
 
 [![Zobacz na żywo](https://img.shields.io/badge/zobacz_na_żywo-1C9D6A?style=flat-square&logo=googlechrome&logoColor=white)](https://matthewplugins.github.io/szkolenia-podglad/szkolenia)
 [![Kod źródłowy](https://img.shields.io/badge/kod_źródłowy-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/krzysiek2115op/aai-platforma-szkolen)
-[![753 commity](https://img.shields.io/badge/753_commity-6B7280?style=flat-square)](https://github.com/krzysiek2115op/aai-platforma-szkolen)
+[![612 commitów](https://img.shields.io/badge/612_commitów_·_69_tagów-6B7280?style=flat-square)](https://github.com/krzysiek2115op/aai-platforma-szkolen)
 
 Katalog kursów, strony sprzedażowe i **automatyczne otwieranie dostępu po opłaceniu zamówienia**.
 
@@ -123,7 +123,27 @@ Katalog kursów, strony sprzedażowe i **automatyczne otwieranie dostępu po op�
 
 Osobna wtyczka monitorująca pilnuje, czy ścieżka płatność → dostęp nadal działa. **Automatyzacja bez monitoringu to maszyna bez kontrolki** — działa, dopóki nie przestanie, i nikt nie wie kiedy.
 
-> **Kod jest otwarty, treść kursów nie.** Repozytorium udostępniam w całości — 753 commity, 3 wtyczki WordPressa, prototyp Next.js, 39 strażników jakości. Materiał kursów, czyli sprzedawany produkt, został usunięty **z całej historii gita**, nie tylko z ostatniego commita. Przed publikacją repozytorium przeszło audyt: skan każdego bloba w historii, nazwy plików, OCR obrazów. **Zero kluczy, tokenów, hashów haseł i dumpów bazy.**
+> **Kod jest otwarty, treść kursów nie.** Repozytorium udostępniam w całości — 3 wtyczki WordPressa, prototyp Next.js, 39 strażników jakości. Materiał kursów, czyli sprzedawany produkt, został usunięty **z całej historii gita**, nie tylko z ostatniego commita. Przed publikacją repozytorium przeszło audyt: skan każdego bloba w historii, nazwy plików, OCR obrazów. **Zero kluczy, tokenów, hashów haseł i dumpów bazy.**
+
+<details>
+<summary><b>Dlaczego 612 commitów i dlaczego nie ma tu wydań (Releases)</b></summary>
+
+<br>
+
+**To jest kopia pokazowa, nie repozytorium produkcyjne.** Produkt żyje w prywatnym `MatthewPlugins/Pod-strona-Szkolenia`. Stąd dwie różnice, które widać na pierwszy rzut oka — obie policzone, nie oszacowane:
+
+| | tutaj (pokazowe) | oryginał (prywatny) |
+|---|---|---|
+| Commity na `main` | **612** | **668** |
+| Commity we wszystkich 11 gałęziach | **753** | **810** |
+| Tagi wersji | **69** | **69** |
+| Wydania (Releases) | **0** | **0** |
+
+**Skąd 56 commitów różnicy na `main`:** tyle dotykało **wyłącznie treści kursów**. Kiedy usuwałem materiał z całej historii, te commity zostały puste i zniknęły razem z nim. **Kodu nie ubyło ani linijki** — wszystkie 69 tagów wersji przeszło w komplecie.
+
+**Dlaczego zero wydań:** ten projekt nigdy z nich nie korzystał — **ani tutaj, ani w oryginale**. Wersjonuje się **69 tagami gita**, bo tag niesie tę samą informację, a nie wymaga klikania w interfejsie GitHuba. Wydanie to warstwa GitHuba, nie gita, więc nie przenosi się razem z historią.
+
+</details>
 
 `2 kursy` · `12 modułów` · `73 lekcje` · `20 godzin materiału`
 
