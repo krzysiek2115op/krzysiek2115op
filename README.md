@@ -174,7 +174,11 @@ Wolę pokazać, ile kodu przeszło przez ręce, niż ile ktoś przybił gwiazdek
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com/?user=krzysiek2115op&theme=dark&hide_border=true&locale=pl&date_format=j%20M%5B%20Y%5D&ring=1C9D6A&fire=1C9D6A&currStreakLabel=1C9D6A" alt="Statystyki aktywności" />
+![Commity — pakiet ofertowy](https://img.shields.io/github/commit-activity/t/krzysiek2115op/mp-offer-automation-suite?style=for-the-badge&label=commity%20%C2%B7%20pakiet%20ofertowy&color=21759B)
+![Commity — importer aukcji](https://img.shields.io/github/commit-activity/t/krzysiek2115op/copart-iaai-importer?style=for-the-badge&label=commity%20%C2%B7%20importer%20aukcji&color=3776AB)
+![Commity — platforma szkoleniowa](https://img.shields.io/badge/commity%20%C2%B7%20platforma%20szkoleniowa-703-6B7280?style=for-the-badge)
+
+<sub>Dwa pierwsze liczniki są pobierane z GitHuba na żywo. Trzeci dotyczy repozytorium prywatnego, więc podaję liczbę wprost.</sub>
 
 </div>
 
