@@ -72,7 +72,7 @@ Pakiet **3 wtyczek** prowadzący zapytanie ofertowe od formularza na stronie do 
 
 > **Kluczowa decyzja:** wtyczki **nie znają swoich klas ani tabel** — rozmawiają wyłącznie zdarzeniami WordPressa. Klient może wdrożyć jedną i ocenić efekt, zanim zdecyduje o reszcie. Podpięcie nowego kroku do procesu to nowa wtyczka słuchająca haka, bez dotykania istniejącego kodu.
 
-**~23 000 linii PHP** · **14 wydań** · CI na PHP 7.4 + 8.3 · harness procesu ze **110 niezmiennikami**
+**33 944 linii kodu produkcyjnego** i **32 767 linii testów** · **72 wydania** · CI na PHP 7.4 + 8.3 · harness procesu ze **110 niezmiennikami**
 
 `PHP` `WordPress` `WooCommerce` `MySQL` `dompdf` `PHPCS/WPCS` `GitHub Actions`
 
@@ -90,7 +90,7 @@ Scraper w Pythonie chodzi na VPS z timera systemd i zasila własną bazę. Wtycz
 
 > **Zdjęcia są hotlinkowane ze źródła** — hosting klienta zajmuje **0 MB**, czy w katalogu jest 50 czy 5000 pozycji. Gdyby scraper działał jako wtyczka, każde pobranie obciążałoby serwer klienta, a błąd mógłby położyć stronę. Rozdzielone — strona serwuje ostatnie dobre dane, nawet gdy pobieranie się wywali.
 
-**Komplet dokumentacji dla osoby nietechnicznej:** 7 dokumentów krok po kroku + instrukcja w PDF.
+**Komplet dokumentacji dla osoby nietechnicznej:** 9 dokumentów krok po kroku + 10 plików PDF.
 
 `Python` `PHP` `WordPress` `MySQL` `systemd` `pytest`
 
@@ -166,7 +166,11 @@ Wolę pokazać, ile kodu przeszło przez ręce, niż ile ktoś przybił gwiazdek
 
 | | |
 |---|---|
-| 🔨 **505 commitów** w **10 repozytoriach** w ciągu roku | intensywna praca, nie jeden zryw |
+| 🔨 **~1 230 commitów własnych** w 12 repozytoriach | 507 w publicznych (licznik GitHuba) + 724 w prywatnych, których ten licznik nie widzi |
+| 📦 **33 944 linii kodu produkcyjnego** w flagowym projekcie | 160 plików, 72 wydania |
+| 🧪 **32 767 linii testów** — niemal tyle, co kodu | plus **110 niezmienników procesu** w CI |
+| 📚 **9 dokumentów + 10 PDF** dla klienta nietechnicznego | dokumentacja to część dostawy, nie dodatek |
+| ▶️ **2 klikalne demo** | klient ocenia produkt, zanim zapłaci |
 | 📦 **~23 000 linii PHP** w samym flagowym projekcie | 117 plików, 14 wydań semver |
 | 🧪 **110 niezmienników procesu** w CI | plus osobne zestawy testów bezpieczeństwa |
 | 📚 **7 dokumentów + PDF** dla klienta nietechnicznego | dokumentacja to część dostawy, nie dodatek |
@@ -176,9 +180,9 @@ Wolę pokazać, ile kodu przeszło przez ręce, niż ile ktoś przybił gwiazdek
 
 ![Commity — pakiet ofertowy](https://img.shields.io/github/commit-activity/t/krzysiek2115op/mp-offer-automation-suite?style=for-the-badge&label=commity%20%C2%B7%20pakiet%20ofertowy&color=21759B)
 ![Commity — importer aukcji](https://img.shields.io/github/commit-activity/t/krzysiek2115op/copart-iaai-importer?style=for-the-badge&label=commity%20%C2%B7%20importer%20aukcji&color=3776AB)
-![Commity — platforma szkoleniowa](https://img.shields.io/badge/commity%20%C2%B7%20platforma%20szkoleniowa-703-6B7280?style=for-the-badge)
+![Commity — platforma szkoleniowa](https://img.shields.io/badge/commity%20%C2%B7%20platforma%20szkoleniowa-666-6B7280?style=for-the-badge)
 
-<sub>Dwa pierwsze liczniki są pobierane z GitHuba na żywo. Trzeci dotyczy repozytorium prywatnego, więc podaję liczbę wprost.</sub>
+<sub>Dwa pierwsze liczniki pobiera GitHub na żywo — to całość commitów w tych repozytoriach i wszystkie są moje. Trzeci dotyczy repozytorium prywatnego (668 commitów, z tego 666 moich), więc podaję liczbę wprost.</sub>
 
 </div>
 
@@ -223,7 +227,7 @@ I automate repetitive business processes in WordPress and WooCommerce — the on
 [![Demo 1](https://img.shields.io/badge/▶_DEMO-Quote_to_offer_automation-1C9D6A?style=for-the-badge)](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/krzysiek2115op/mp-offer-automation-suite/main/tools/strona-pokazowa/blueprint.json)
 [![Demo 2](https://img.shields.io/badge/▶_DEMO-Auction_catalogue-1C9D6A?style=for-the-badge)](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/krzysiek2115op/iaai-importer-demo/main/blueprint.json)
 
-Featured work: [MP Offer Automation Suite](https://github.com/krzysiek2115op/mp-offer-automation-suite) (~23k lines of PHP, 14 releases, CI on PHP 7.4 + 8.3, a process harness of 110 invariants) · [Copart/IAAI Importer](https://github.com/krzysiek2115op/copart-iaai-importer) (Python scraper on a VPS, read-only WordPress plugin, images hotlinked so the client's hosting uses 0 MB) · [Automatic AI course shop](https://matthewplugins.github.io/szkolenia-podglad/szkolenia) (WooCommerce wired to an LMS — payment unlocks access automatically)
+Featured work: [MP Offer Automation Suite](https://github.com/krzysiek2115op/mp-offer-automation-suite) (33,944 lines of production PHP plus 32,767 lines of tests, 72 releases, CI on PHP 7.4 + 8.3, a process harness of 110 invariants) · [Copart/IAAI Importer](https://github.com/krzysiek2115op/copart-iaai-importer) (Python scraper on a VPS, read-only WordPress plugin, images hotlinked so the client's hosting uses 0 MB) · [Automatic AI course shop](https://matthewplugins.github.io/szkolenia-podglad/szkolenia) (WooCommerce wired to an LMS — payment unlocks access automatically)
 
 **How I work:** demo before you decide · modular delivery, one piece at a time · documentation written for the person operating the system, not for a developer · a separate verification pass on every delivery, because a green test suite only proves the code passes the tests someone thought to write.
 
