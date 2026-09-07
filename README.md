@@ -171,10 +171,6 @@ Wolę pokazać, ile kodu przeszło przez ręce, niż ile ktoś przybił gwiazdek
 | 🧪 **32 767 linii testów** — niemal tyle, co kodu | plus **110 niezmienników procesu** w CI |
 | 📚 **9 dokumentów + 10 PDF** dla klienta nietechnicznego | dokumentacja to część dostawy, nie dodatek |
 | ▶️ **2 klikalne demo** | klient ocenia produkt, zanim zapłaci |
-| 📦 **~23 000 linii PHP** w samym flagowym projekcie | 117 plików, 14 wydań semver |
-| 🧪 **110 niezmienników procesu** w CI | plus osobne zestawy testów bezpieczeństwa |
-| 📚 **7 dokumentów + PDF** dla klienta nietechnicznego | dokumentacja to część dostawy, nie dodatek |
-| ▶️ **2 klikalne demo** | klient ocenia produkt, zanim zapłaci |
 
 <div align="center">
 
