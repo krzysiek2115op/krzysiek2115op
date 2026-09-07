@@ -46,7 +46,7 @@ Scraper w Pythonie chodzi na VPS z timera systemd: crawl → normalizacja → de
 
 ---
 
-**[Strona przedszkola](https://krzysiek2115op.github.io/-Nowa-strona-Czarodziejski-Dworek-/)** — ta sama strona w dwóch wariantach: statyczny HTML i autorski motyw WordPress **bez ani jednej wtyczki**.
+**[Czarodziejski Dworek — strona przedszkola](https://krzysiek2115op.github.io/-Nowa-strona-Czarodziejski-Dworek-/)** — ta sama strona w dwóch wariantach: statyczny HTML i autorski motyw WordPress **bez ani jednej wtyczki**.
 
 Formularze przez Web3Forms: bez bazy, bez abonamentu, klucz wklejany przez właściciela w panelu. SEO lokalne, schema.org, CSP, WCAG, mobile-first.
 
@@ -54,11 +54,17 @@ Formularze przez Web3Forms: bez bazy, bez abonamentu, klucz wklejany przez wła�
 
 ---
 
-**[AI PR Guardian](https://github.com/krzysiek2115op/AI-PR-GUARDIAN-)** — bramka jakości dla Pull Requestów oparta o subagenta „strażnik regresji" i obowiązkowego krytyka, który próbuje obalić jego tezę.
+**Automatic AI — sklep z kursami online** — katalog, strony sprzedażowe i automatyczne otwieranie dostępu po opłaceniu zamówienia.
 
-Powstała, gdy okazało się, że 4 z 13 znanych klas błędów w projekcie nie miały żadnej ochrony automatycznej, mimo 25 strażników i 75 testów.
+Trzy wtyczki WordPress spinające WooCommerce z platformą kursową: klient płaci o drugiej w nocy i **od razu ma dostęp**, bez ręcznego odblokowywania. Świadoma decyzja: nie pisać własnej kasy ani własnego systemu kursów — moją pracą jest szew między nimi.
 
-`JavaScript` `GitHub Actions` `Anthropic API` `zero dependencies`
+`2 kursy` · `12 modułów` · `73 lekcje` · `20 godzin materiału`
+
+![Landing katalogu szkoleń Automatic AI z liczbami oferty i mockupem platformy](assets/automatic-ai.png)
+
+▶️ **[Zobacz na żywo](https://matthewplugins.github.io/szkolenia-podglad/szkolenia)** — statyczny podgląd. Kod źródłowy prywatny, projekt prowadzony wspólnie.
+
+`Next.js 16` `React 19` `TypeScript` `Tailwind` `PHP` `WordPress` `WooCommerce`
 
 ---
 
@@ -82,8 +88,9 @@ I automate repetitive business processes in WordPress and WooCommerce — the on
 - **Custom WordPress/WooCommerce plugins** — quote-to-offer pipelines, lead qualification, PDF generation, sales workflow
 - **Data integrations and scrapers** — Python on a VPS feeding a private database, read-only WordPress plugin on the front
 - **Websites and custom themes** — no plugin bloat, local SEO, accessibility, mobile-first
+- **E-commerce integrations** — WooCommerce wired to whatever has to happen after payment
 
-Featured: [MP Offer Automation Suite](https://github.com/krzysiek2115op/mp-offer-automation-suite) ([live demo](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/krzysiek2115op/mp-offer-automation-suite/main/tools/strona-pokazowa/blueprint.json), ~23k lines of PHP, 14 releases, CI on PHP 7.4 + 8.3) · [Copart/IAAI Importer](https://github.com/krzysiek2115op/copart-iaai-importer) ([live demo](https://github.com/krzysiek2115op/iaai-importer-demo), runs in your browser)
+Featured: [MP Offer Automation Suite](https://github.com/krzysiek2115op/mp-offer-automation-suite) ([live demo](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/krzysiek2115op/mp-offer-automation-suite/main/tools/strona-pokazowa/blueprint.json), ~23k lines of PHP, 14 releases, CI on PHP 7.4 + 8.3) · [Copart/IAAI Importer](https://github.com/krzysiek2115op/copart-iaai-importer) ([live demo](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/krzysiek2115op/iaai-importer-demo/main/blueprint.json), runs in your browser) · [Automatic AI course shop](https://matthewplugins.github.io/szkolenia-podglad/szkolenia) (WooCommerce wired to an LMS — payment unlocks access automatically)
 
 </details>
 
