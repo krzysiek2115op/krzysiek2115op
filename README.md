@@ -112,7 +112,8 @@ Scraper w Pythonie chodzi na VPS z timera systemd i zasila własną bazę. Wtycz
 ### 3. Automatic AI — sklep z kursami online
 
 [![Zobacz na żywo](https://img.shields.io/badge/zobacz_na_żywo-1C9D6A?style=flat-square&logo=googlechrome&logoColor=white)](https://matthewplugins.github.io/szkolenia-podglad/szkolenia)
-![Prywatne](https://img.shields.io/badge/kod_źródłowy-prywatny-6B7280?style=flat-square)
+[![Kod źródłowy](https://img.shields.io/badge/kod_źródłowy-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/krzysiek2115op/aai-platforma-szkolen)
+[![753 commity](https://img.shields.io/badge/753_commity-6B7280?style=flat-square)](https://github.com/krzysiek2115op/aai-platforma-szkolen)
 
 Katalog kursów, strony sprzedażowe i **automatyczne otwieranie dostępu po opłaceniu zamówienia**.
 
@@ -121,6 +122,8 @@ Katalog kursów, strony sprzedażowe i **automatyczne otwieranie dostępu po op�
 > **Świadoma decyzja: nie pisać własnej kasy ani własnego systemu kursów.** WooCommerce robi płatności bezpieczniej i utrzymuje je ktoś inny. Moją pracą jest szew między systemami — najtańsza część, a jednocześnie ta, której nie da się kupić gotowej.
 
 Osobna wtyczka monitorująca pilnuje, czy ścieżka płatność → dostęp nadal działa. **Automatyzacja bez monitoringu to maszyna bez kontrolki** — działa, dopóki nie przestanie, i nikt nie wie kiedy.
+
+> **Kod jest otwarty, treść kursów nie.** Repozytorium udostępniam w całości — 753 commity, 3 wtyczki WordPressa, prototyp Next.js, 39 strażników jakości. Materiał kursów, czyli sprzedawany produkt, został usunięty **z całej historii gita**, nie tylko z ostatniego commita. Przed publikacją repozytorium przeszło audyt: skan każdego bloba w historii, nazwy plików, OCR obrazów. **Zero kluczy, tokenów, hashów haseł i dumpów bazy.**
 
 `2 kursy` · `12 modułów` · `73 lekcje` · `20 godzin materiału`
 
@@ -302,7 +305,7 @@ I automate repetitive business processes in WordPress and WooCommerce — the on
 [![Demo 1](https://img.shields.io/badge/▶_DEMO-Quote_to_offer_automation-1C9D6A?style=for-the-badge)](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/krzysiek2115op/mp-offer-automation-suite/main/tools/strona-pokazowa/blueprint.json)
 [![Demo 2](https://img.shields.io/badge/▶_DEMO-Auction_catalogue-1C9D6A?style=for-the-badge)](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/krzysiek2115op/iaai-importer-demo/main/blueprint.json)
 
-Featured work: [MP Offer Automation Suite](https://github.com/krzysiek2115op/mp-offer-automation-suite) (33,944 lines of production PHP plus 32,767 lines of tests, 72 releases, CI on PHP 7.4 + 8.3, a process harness of 110 invariants) · [Copart/IAAI Importer](https://github.com/krzysiek2115op/copart-iaai-importer) (Python scraper on a VPS, read-only WordPress plugin, images hotlinked so the client's hosting uses 0 MB) · [Automatic AI course shop](https://matthewplugins.github.io/szkolenia-podglad/szkolenia) (WooCommerce wired to an LMS — payment unlocks access automatically) · [Kredyt Kompas](https://krzysiek2115op.github.io/kredyt-kompas-demo/) (loan broker site whose borrowing-capacity calculator runs entirely in the visitor's browser, so no income data ever leaves their machine — a demo site, not a client deployment) · [AI PR Guardian](https://github.com/krzysiek2115op/ai-pr-guardian) (a four-stage AI review gate where two stages cost zero tokens — **an experiment, never run on a live pull request, and 11 of its 15 commits were written by Claude Code**; mine is the architecture and the agent direction, not the typing)
+Featured work: [MP Offer Automation Suite](https://github.com/krzysiek2115op/mp-offer-automation-suite) (33,944 lines of production PHP plus 32,767 lines of tests, 72 releases, CI on PHP 7.4 + 8.3, a process harness of 110 invariants) · [Copart/IAAI Importer](https://github.com/krzysiek2115op/copart-iaai-importer) (Python scraper on a VPS, read-only WordPress plugin, images hotlinked so the client's hosting uses 0 MB) · [Automatic AI course shop](https://github.com/krzysiek2115op/aai-platforma-szkolen) (WooCommerce wired to an LMS — payment unlocks access automatically; the full 753-commit codebase is open, the paid course content was stripped from the entire git history, and the repository was audited blob by blob before release — [live preview](https://matthewplugins.github.io/szkolenia-podglad/szkolenia)) · [Kredyt Kompas](https://krzysiek2115op.github.io/kredyt-kompas-demo/) (loan broker site whose borrowing-capacity calculator runs entirely in the visitor's browser, so no income data ever leaves their machine — a demo site, not a client deployment) · [AI PR Guardian](https://github.com/krzysiek2115op/ai-pr-guardian) (a four-stage AI review gate where two stages cost zero tokens — **an experiment, never run on a live pull request, and 11 of its 15 commits were written by Claude Code**; mine is the architecture and the agent direction, not the typing)
 
 **How I work:** demo before you decide · modular delivery, one piece at a time · documentation written for the person operating the system, not for a developer · AI speeds up writing and checking the code, it does not replace review · a separate verification pass on every delivery, because a green test suite only proves the code passes the tests someone thought to write.
 
