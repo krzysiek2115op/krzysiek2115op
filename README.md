@@ -117,8 +117,8 @@ Osobna wtyczka monitorująca pilnuje, czy ścieżka płatność → dostęp nada
 
 ### 4. Czarodziejski Dworek — strona przedszkola w dwóch wariantach
 
-[![Strona na żywo](https://img.shields.io/badge/strona_na_żywo-1C9D6A?style=flat-square&logo=googlechrome&logoColor=white)](https://krzysiek2115op.github.io/-Nowa-strona-Czarodziejski-Dworek-/)
-[![Repo](https://img.shields.io/badge/kod_źródłowy-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/krzysiek2115op/-Nowa-strona-Czarodziejski-Dworek-)
+[![Strona na żywo](https://img.shields.io/badge/strona_na_żywo-1C9D6A?style=flat-square&logo=googlechrome&logoColor=white)](https://krzysiek2115op.github.io/czarodziejski-dworek/)
+[![Repo](https://img.shields.io/badge/kod_źródłowy-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/krzysiek2115op/czarodziejski-dworek)
 
 Ta sama strona w dwóch wariantach: statyczny HTML i **autorski motyw WordPress bez ani jednej wtyczki**.
 
