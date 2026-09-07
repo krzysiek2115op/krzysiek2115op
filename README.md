@@ -143,6 +143,40 @@ Formularze przez zewnętrzną usługę: bez bazy, bez abonamentu, klucz w panelu
 
 ---
 
+### 5. Kredyt Kompas — strona, która wstępnie kwalifikuje klienta
+
+[![Strona na żywo](https://img.shields.io/badge/strona_na_żywo-1C9D6A?style=flat-square&logo=googlechrome&logoColor=white)](https://krzysiek2115op.github.io/kredyt-kompas-demo/)
+[![Repo](https://img.shields.io/badge/kod_źródłowy-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/krzysiek2115op/kredyt-kompas-demo)
+
+Strona pośrednika kredytowego: 8 podstron i **kalkulator zdolności kredytowej**, który liczy w przeglądarce odwiedzającego.
+
+> **Dlaczego to ma znaczenie:** dane o dochodach **nie opuszczają komputera odwiedzającego** — nie ma żądania sieciowego, logu ani bazy. Strona nie przetwarza danych wrażliwych, więc zakres obowiązków wokół RODO jest minimalny, a kalkulator działa nawet wtedy, gdy hosting leży.
+
+Strona przestaje być broszurą: klient przychodzi na rozmowę z policzoną kwotą zamiast z pytaniem „ile ja mogę dostać?". Czysty HTML/CSS/JS — bez frameworka, bez build-stepu, bez kosztu utrzymania.
+
+<sub>⚠️ Witryna demonstracyjna — „Kredyt Kompas" to nazwa wymyślona na potrzeby pokazu, nie wdrożenie u klienta.</sub>
+
+`HTML5` `CSS3` `vanilla JS` `sitemap` `security headers` `GitHub Pages`
+
+---
+
+### 6. AI PR Guardian — bramka jakości AI, którą zaprojektowałem, a napisał agent
+
+[![Repo](https://img.shields.io/badge/kod_źródłowy-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/krzysiek2115op/ai-pr-guardian)
+[![Eksperyment](https://img.shields.io/badge/eksperyment_·_nie_produkt-B45309?style=flat-square)](https://github.com/krzysiek2115op/ai-pr-guardian)
+
+Bramka czterostopniowa wpinająca model AI w przegląd kodu tak, żeby **nie dublował** darmowych testów i nie palił pieniędzy na każdym commicie.
+
+> **Dwa z czterech stopni kosztują zero tokenów.** Filtr zakresu odrzuca większość uruchomień, zanim model zobaczy diff, a decyzję „przepuścić czy zablokować" podejmuje plik konfiguracyjny, nie model. Sam model wchodzi tylko do **czterech klas błędów**, których nie łapie żaden z 39 strażników skryptowych, 84 testów i 10 goldenów pilnowanego repozytorium.
+
+Po nim obowiązkowo idzie drugi agent-krytyk, którego jedynym zadaniem jest **obalić** znalezisko pierwszego. Do tego osiem plików kontrolnych — cztery z prawdziwymi błędami i cztery mylące, ale poprawne — żeby o skuteczności dało się mówić liczbą, a nie opinią.
+
+<sub>⚠️ <b>Eksperyment, nie produkt.</b> Nigdy nie został uruchomiony na prawdziwym Pull Requeście. <b>11 z 15 commitów napisał Claude Code</b> — moja jest architektura i nadzór, nie klepanie kodu. Ta pozycja pokazuje, <b>jak prowadzę agenta</b>: zakres, granice uprawnień, obowiązkowa weryfikacja, pomiar wyniku.</sub>
+
+`Node.js` `Claude Code plugin` `subagenty` `git hooks` `GitHub Actions` `zero zależności`
+
+---
+
 ## 🧰 Tech stack
 
 **Backend**
@@ -268,7 +302,7 @@ I automate repetitive business processes in WordPress and WooCommerce — the on
 [![Demo 1](https://img.shields.io/badge/▶_DEMO-Quote_to_offer_automation-1C9D6A?style=for-the-badge)](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/krzysiek2115op/mp-offer-automation-suite/main/tools/strona-pokazowa/blueprint.json)
 [![Demo 2](https://img.shields.io/badge/▶_DEMO-Auction_catalogue-1C9D6A?style=for-the-badge)](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/krzysiek2115op/iaai-importer-demo/main/blueprint.json)
 
-Featured work: [MP Offer Automation Suite](https://github.com/krzysiek2115op/mp-offer-automation-suite) (33,944 lines of production PHP plus 32,767 lines of tests, 72 releases, CI on PHP 7.4 + 8.3, a process harness of 110 invariants) · [Copart/IAAI Importer](https://github.com/krzysiek2115op/copart-iaai-importer) (Python scraper on a VPS, read-only WordPress plugin, images hotlinked so the client's hosting uses 0 MB) · [Automatic AI course shop](https://matthewplugins.github.io/szkolenia-podglad/szkolenia) (WooCommerce wired to an LMS — payment unlocks access automatically)
+Featured work: [MP Offer Automation Suite](https://github.com/krzysiek2115op/mp-offer-automation-suite) (33,944 lines of production PHP plus 32,767 lines of tests, 72 releases, CI on PHP 7.4 + 8.3, a process harness of 110 invariants) · [Copart/IAAI Importer](https://github.com/krzysiek2115op/copart-iaai-importer) (Python scraper on a VPS, read-only WordPress plugin, images hotlinked so the client's hosting uses 0 MB) · [Automatic AI course shop](https://matthewplugins.github.io/szkolenia-podglad/szkolenia) (WooCommerce wired to an LMS — payment unlocks access automatically) · [Kredyt Kompas](https://krzysiek2115op.github.io/kredyt-kompas-demo/) (loan broker site whose borrowing-capacity calculator runs entirely in the visitor's browser, so no income data ever leaves their machine — a demo site, not a client deployment) · [AI PR Guardian](https://github.com/krzysiek2115op/ai-pr-guardian) (a four-stage AI review gate where two stages cost zero tokens — **an experiment, never run on a live pull request, and 11 of its 15 commits were written by Claude Code**; mine is the architecture and the agent direction, not the typing)
 
 **How I work:** demo before you decide · modular delivery, one piece at a time · documentation written for the person operating the system, not for a developer · AI speeds up writing and checking the code, it does not replace review · a separate verification pass on every delivery, because a green test suite only proves the code passes the tests someone thought to write.
 
