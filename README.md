@@ -23,37 +23,50 @@
 
 ## 🎯 Czym się zajmuję
 
+> Najprościej: **jeśli ktoś u Was codziennie przepisuje te same dane z miejsca w miejsce — buduję program, który robi to za niego.**
+> Nie musisz się znać na technologii. Wystarczy, że opiszesz, co dziś klikacie ręcznie.
+
 <table>
 <tr>
 <td width="33%" valign="top">
 
-### 🔁 Automatyzacja WP / WooCommerce
+### 🔁 Koniec z przepisywaniem ręcznie
 
-Zapytanie → kwalifikacja leada → kalkulacja ceny → oferta PDF → zadanie u handlowca.
+Ktoś u Was przenosi dane z formularza do maila, z maila do Excela, a z Excela do systemu?
 
-Wtyczki pisane **pod konkretny proces**, nie konfiguracja gotowców.
+Buduję program, który robi to sam: **zapytanie od klienta zamienia się w gotową ofertę PDF** i zadanie dla handlowca. Bez jednego „kopiuj-wklej".
 
-</td>
-<td width="33%" valign="top">
-
-### 🔌 Integracje i import danych
-
-Scraper na serwerze zasila własną bazę, wtyczka WordPress wyświetla dane na stronie.
-
-Aktualizacja **bez udziału człowieka**.
+**Co z tego masz:** oferta wychodzi w kilka minut zamiast w pół dnia, a nikt nie zapomina o kliencie.
 
 </td>
 <td width="33%" valign="top">
 
-### 🌐 Strony i motywy WordPress
+### 🔌 Dane z zewnątrz, zawsze aktualne
 
-Autorskie motywy bez zbędnych wtyczek, SEO lokalne, dostępność, mobile-first.
+Potrzebujesz na stronie danych, które żyją gdzie indziej — cennika dostawcy, katalogu aukcji, stanów magazynowych?
 
-**Bez abonamentów**, które za rok przestaną działać.
+Robię most: **dane same się pobierają i same wyświetlają** u Ciebie na stronie. Też w nocy i w weekend.
+
+**Co z tego masz:** strona jest aktualna bez Twojego udziału i bez ręcznego wgrywania plików.
+
+</td>
+<td width="33%" valign="top">
+
+### 🤖 AI i agenty w mojej pracy
+
+Z narzędziami AI pracuję codziennie — pomagają pisać kod, wyłapywać w nim błędy i przygotowywać dokumentację dla Ciebie.
+
+To nie jest gadżet. To powód, dla którego **ten sam zakres robię szybciej i taniej**, niż gdybym pisał wszystko od zera.
+
+**Co z tego masz:** krótszy termin i niższa cena — przy tej samej kontroli, bo każdą linię i tak sprawdzam ja.
 
 </td>
 </tr>
 </table>
+
+**Robię też strony i sklepy WordPress** — autorskie motywy bez sterty wtyczek, widok mobilny, SEO lokalne. Bez abonamentów, które za rok przestaną działać.
+
+<sub>Nie wiesz, do której szufladki pasuje Twój przypadek? Napisz zwykłym językiem, co Was męczy — od tego jest pierwsza rozmowa.</sub>
 
 ---
 
@@ -158,6 +171,23 @@ Formularze przez zewnętrzną usługę: bez bazy, bez abonamentu, klucz w panelu
 ![Docker](https://img.shields.io/badge/Docker_/_podman-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Testy](https://img.shields.io/badge/PHPCS_·_pytest_·_ESLint-4B5563?style=for-the-badge)
 
+**AI — moje codzienne narzędzia pracy**
+
+![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=claude&logoColor=white)
+![GitHub Copilot](https://img.shields.io/badge/GitHub_Copilot-181717?style=for-the-badge&logo=githubcopilot&logoColor=white)
+![Cursor](https://img.shields.io/badge/Cursor-0F172A?style=for-the-badge&logo=cursor&logoColor=white)
+![Windsurf](https://img.shields.io/badge/Windsurf-09B6A2?style=for-the-badge&logo=windsurf&logoColor=white)
+![Codex](https://img.shields.io/badge/Codex-412991?style=for-the-badge)
+
+![ChatGPT](https://img.shields.io/badge/ChatGPT-74AA9C?style=for-the-badge)
+![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white)
+![DeepSeek](https://img.shields.io/badge/DeepSeek-4D6BFE?style=for-the-badge&logo=deepseek&logoColor=white)
+![Grok](https://img.shields.io/badge/Grok-000000?style=for-the-badge&logo=x&logoColor=white)
+![Perplexity](https://img.shields.io/badge/Perplexity-1FB8CD?style=for-the-badge&logo=perplexity&logoColor=white)
+
+<sub>AI przyspiesza pisanie i sprawdzanie kodu — <b>nie zastępuje przeglądu</b>. Każda dostawa przechodzi przeze mnie i przez osobny przebieg kontrolny opisany niżej.</sub>
+
 ---
 
 ## 📊 W liczbach
@@ -200,9 +230,23 @@ To, co odróżnia moją ofertę od „wyślę Ci ZIP-a i powodzenia":
 
 ## 📫 Kontakt
 
-**Napisz, co robisz dziś ręcznie i jak często.** Odpowiem, czy da się to zautomatyzować, ile to zajmie i ile kosztuje — bez zobowiązań.
+**Napisz albo zadzwoń.** Powiedz, co robisz dziś ręcznie i jak często — odpowiem, czy da się to zautomatyzować, ile to zajmie i ile będzie kosztowało. Bez zobowiązań i bez żargonu.
 
+<div align="center">
+
+## 📧 krzysztof2006oskar@wp.pl
+
+## 📱 531 820 534
+
+[![Napisz maila](https://img.shields.io/badge/✉_NAPISZ_MAILA-krzysztof2006oskar@wp.pl-1C9D6A?style=for-the-badge)](mailto:krzysztof2006oskar@wp.pl?subject=Pytanie%20o%20automatyzacj%C4%99)
+[![Zadzwoń](https://img.shields.io/badge/📞_ZADZWOŃ-531_820_534-1C9D6A?style=for-the-badge)](tel:+48531820534)
+
+[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/krzysztof.leszczynski.148/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/krzysiek2115op)
+
+<sub>Odpowiadam w ciągu jednego dnia roboczego. Wolisz najpierw napisać niż dzwonić? Mail jest w porządku — opisz proces, resztę dopytam sam.</sub>
+
+</div>
 
 ---
 
@@ -216,6 +260,7 @@ I automate repetitive business processes in WordPress and WooCommerce — the on
 - **Custom WordPress/WooCommerce plugins** — quote-to-offer pipelines, lead qualification, PDF generation, sales workflow
 - **Data integrations and scrapers** — Python on a VPS feeding a private database, read-only WordPress plugin on the front
 - **E-commerce integrations** — WooCommerce wired to whatever has to happen after payment
+- **AI-assisted delivery** — I work with AI coding assistants daily (Claude Code, Copilot, Cursor, Windsurf, Codex) and with ChatGPT, Gemini, Claude, DeepSeek, Grok and Perplexity for research. Same scope, shorter timeline, lower price — every line still reviewed by me
 - **Websites and custom themes** — no plugin bloat, local SEO, accessibility, mobile-first
 
 **Try before you decide** — both flagship projects ship a clickable demo that boots a full WordPress install in your browser:
@@ -225,7 +270,9 @@ I automate repetitive business processes in WordPress and WooCommerce — the on
 
 Featured work: [MP Offer Automation Suite](https://github.com/krzysiek2115op/mp-offer-automation-suite) (33,944 lines of production PHP plus 32,767 lines of tests, 72 releases, CI on PHP 7.4 + 8.3, a process harness of 110 invariants) · [Copart/IAAI Importer](https://github.com/krzysiek2115op/copart-iaai-importer) (Python scraper on a VPS, read-only WordPress plugin, images hotlinked so the client's hosting uses 0 MB) · [Automatic AI course shop](https://matthewplugins.github.io/szkolenia-podglad/szkolenia) (WooCommerce wired to an LMS — payment unlocks access automatically)
 
-**How I work:** demo before you decide · modular delivery, one piece at a time · documentation written for the person operating the system, not for a developer · a separate verification pass on every delivery, because a green test suite only proves the code passes the tests someone thought to write.
+**How I work:** demo before you decide · modular delivery, one piece at a time · documentation written for the person operating the system, not for a developer · AI speeds up writing and checking the code, it does not replace review · a separate verification pass on every delivery, because a green test suite only proves the code passes the tests someone thought to write.
+
+**Contact:** [krzysztof2006oskar@wp.pl](mailto:krzysztof2006oskar@wp.pl) · +48 531 820 534 · [Facebook](https://www.facebook.com/krzysztof.leszczynski.148/) — tell me what you do by hand today and how often, and I will tell you whether it is worth automating, how long it takes and what it costs.
 
 </details>
 
