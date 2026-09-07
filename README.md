@@ -24,6 +24,10 @@ Wtyczki komunikują się **wyłącznie zdarzeniami WordPressa** — żadna nie z
 
 ▶️ **[Klikalne demo](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/krzysiek2115op/mp-offer-automation-suite/main/tools/strona-pokazowa/blueprint.json)** — kompletny WordPress z trzema wtyczkami i pełnym przebiegiem procesu, uruchamia się w Twojej przeglądarce.
 
+![Panel procesów sprzedażowych: lista spraw z klientem, statusem, przypisanym handlowcem i terminem SLA](assets/procesy-sprzedazowe.png)
+
+*Panel procesów sprzedażowych — zrzut z działającego demo.*
+
 `PHP` `WordPress` `WooCommerce` `MySQL` `dompdf` `GitHub Actions`
 
 ---
@@ -32,7 +36,11 @@ Wtyczki komunikują się **wyłącznie zdarzeniami WordPressa** — żadna nie z
 
 Scraper w Pythonie chodzi na VPS z timera systemd: crawl → normalizacja → deduplikacja → audyt → zapis do bazy. Wtyczka WordPress czyta tę bazę **read-only** i renderuje podstronę z filtrami i paginacją. Zdjęcia hotlinkowane, więc na dysku klienta zajmuje to **0 MB**.
 
-▶️ **[Klikalne demo](https://github.com/krzysiek2115op/iaai-importer-demo)** — uruchamia się w przeglądarce, bez instalacji.
+▶️ **[Klikalne demo](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/krzysiek2115op/iaai-importer-demo/main/blueprint.json)** — uruchamia się w przeglądarce, bez instalacji.
+
+![Katalog pojazdów z filtrami marki, rocznika i typu uszkodzenia oraz kartami ofert](assets/katalog-aut.png)
+
+*Podstrona „Nasze auta" — filtry, karty pojazdów, oznaczenia źródła. Zdjęcia w demo to placeholdery; na wdrożeniu są hotlinkowane ze źródła.*
 
 `Python` `PHP` `WordPress` `MySQL` `systemd` `pytest`
 
